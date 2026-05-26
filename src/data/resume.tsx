@@ -12,10 +12,10 @@ import { SVGProps } from "react";
 import { JSX } from "react/jsx-runtime";
 
 export const resume: SiteConfig = {
-    name: "Ahmed Arat",
+    name: "Keisha Gwen Paraiso",
     role: "Full-Stack Developer",
-    location: "Kuala Lumpur",
-    email: "aratahmed@gmail.com",
+    location: "Valenzuela City, Metro Manila",
+    email: "keishaparaiso@gmail.com",
 
     typewriterWords: ["interfaces.", "experiences.", "solutions."],
 
@@ -27,24 +27,24 @@ export const resume: SiteConfig = {
 
     contact: {
         socials: [
-            {name: "GitHub", url: "https://github.com/medy17", icon: Github},
-            {name: "LinkedIn", url: "https://www.linkedin.com/in/ahmed-arat-34a472a3/", icon: Linkedin},
+            { name: "GitHub", url: "https://github.com/xyue23", icon: Github},
+            { name: "LinkedIn", url: "https://www.linkedin.com/in/keishaparaiso", icon: Linkedin},
             {
                 name: "Instagram",
-                url: "https://instagram.com/_medy__/",
+                url: "https://www.instagram.com/keimmyy/",
                 icon: (props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) => (
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16" {...props}>
                         <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
                     </svg>
                 )
             },
-            { name: "Email", url: "mailto:aratahmed@gmail.com", icon: Mail },
+            { name: "Email", url: "mailto:keishaparaiso@gmail.com", icon: Mail },
         ]
     },
 
     skills: [
-        "Python", "Java", "HTML", "CSS", "JavaScript", "TypeScript",
-        "Astro", "React", "Git", "SQL", "Node.js"
+        "Python", "Java", "HTML", "CSS", "JavaScript","C#", "PHP",
+        "MySQL", "SQL Server", "Git", "UI/UX", "ASP.NET"
     ],
 
     attributes: [
@@ -71,48 +71,49 @@ export const resume: SiteConfig = {
     experience: [
         {
             type: "work",
-            company: "Umahmed Cakes",
-            logo: "/experience/umahmed.webp",
-            icon: "UC",
+            company: "Aqua SmartGuard",
+            logo: "/experience/aqua.jpg",
+            icon: "ASG",
             containerClass: "bg-pink-500/10 border-pink-500/20",
             textClass: "text-pink-400",
-            title: "Graphic Designer",
-            period: "Jan 2020 – Present",
+            title: "Assistant Encoder",
+            period: "November 2024 – January 2026",
             highlights: [
-                "Designed branding and marketing materials.",
-                "Designed and edited photographs and vector illustrations for social media and print.",
-                "Integrating fulfilment and payment apps.",
+                "Encoded and organized receipt data with high accuracy.",
+                "Verified and validated information to ensure data consistency.",
+                "Handled structured data input and basic record management.",
+            ],
+        },
+        {
+            type: "work",
+            company: "Upwork",
+            logo: "/experience/upwork.png",
+            icon: "UW",
+            containerClass: "bg-pink-500/10 border-pink-500/20",
+            textClass: "text-pink-400",
+            title: "Assistant Bookkeeper",
+            period: "May 2020 – May 2020",
+            highlights: [
+                "Managed and organized financial records with accuracy.",
+                "Ensured data consistency and attention to detail.",
             ],
         },
         {
             type: "education",
-            company: "Taylor's University",
-            logo: "/experience/taylors.webp",
-            icon: "TU",
+            company: "Pamantasan ng Lungsod ng Valenzuela",
+            logo: "/experience/PamantasanNgLungsodNgValenzuelaLogo.png",
+            icon: "PLV",
             containerClass: "bg-red-500/10 border-red-500/20",
             textClass: "text-red-400",
-            title: "BSc Computer Science",
-            period: "Sep 2023 - Present",
+            title: "BS Information Technology",
+            period: "August 2023 - Present",
             highlights: [
-                "BSC Computer Science with a specialisation in Data Science.",
-                "Dean's List for academic excellence.",
-                "Active member of multiple Hackathon teams and competitions.",
+                "Focused on System Anlaysis and Software Development.",
+                "Developed multiple academic projects including a WinForms system and PHP-based review system.",
+                "Experienced in C#, PHP, MySQL, and basic UI/UX design.",
             ],
         },
-        {
-            type: "education",
-            company: "Multimedia University",
-            icon: "MMU",
-            containerClass: "bg-blue-500/10 border-blue-500/20",
-            textClass: "text-blue-400",
-            title: "Foundation in IT",
-            period: "Jan 2022 - Dec 2022",
-            highlights: [
-                "Foundation in Information Technology.",
-                "Graduated with High Distinction.",
-                "Focus on programming fundamentals and mathematics.",
-            ],
-        },
+        
     ],
 
     projects: [
