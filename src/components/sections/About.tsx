@@ -10,7 +10,7 @@ import { resume } from "@/data/resume";
 export function About() {
     const isMobile = useIsMobile();
     const typeText = useTypewriter(resume.typewriterWords, 100, 2000);
-    const src = isMobile ? "/portrait_ahmed_bgless_mobile.webp" : "/portrait_ahmed_bgless.webp";
+    const src = isMobile ? "/portrait_keisha_mobile_bgless.webp" : "/portrait_keisha_bgless.webp";
 
     return (
         <div className="max-w-5xl mx-auto pb-10">
