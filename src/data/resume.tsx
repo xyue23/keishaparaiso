@@ -139,7 +139,7 @@ export const resume: SiteConfig = {
             client: "Web Development Project",
             timeline: "5 weeks",
             techStack: ["HTML", "CSS", "PHP", "JavaScript"],
-            images: ["chades/Home.png", "chades/About.webp", "chades/Menu.webp", "chades/Contact.webp", "chades/Review.webp", "chades/Gallery.webp"],
+            images: ["chades/Home.webp", "chades/About.webp", "chades/Menu.webp", "chades/Contact.webp", "chades/Review.webp", "chades/Gallery.webp"],
             description: "The CHADES website is a proposed digital platform that allows customers to browse the menu and place orders online, improving convenience and accessibility. It aims to streamline operations and expand the business’s reach beyond its current phone-based ordering system.",
             scope: "Website",
             responsibilities: [
