@@ -27,10 +27,8 @@ export default defineConfig(({ mode }) => {
     const resumeContent = fs.existsSync(resumePath) ? fs.readFileSync(resumePath, "utf-8") : "";
 
     const name = extractFromResume(resumeContent, "name") || "Portfolio";
-    const role = extractFromResume(resumeContent, "role") || "Web Developer";
 
-    const article = getIndefiniteArticle(role);
-
+    
     const metaDescription = `Professional portfolio of ${name}, ${article} ${role}. View my projects, skills, and contact information.`;
 
     return {
