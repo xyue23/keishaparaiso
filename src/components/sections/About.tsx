@@ -24,7 +24,7 @@ export function About() {
                     </div>
 
                     <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
-                        <p>I'm <span className="text-white font-medium">{resume.name}</span>, a {resume.role} based in {resume.location}.</p>
+                        <p>I'm <span className="text-white font-medium">{resume.name}</span>, based in {resume.location}.</p>
                         <p>
                             {resume.bio[0]}{" "}
                             <span className="text-primary/90 font-mono font-bold inline-block min-w-[10ch]">
