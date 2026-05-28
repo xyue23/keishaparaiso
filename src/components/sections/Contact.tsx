@@ -156,8 +156,7 @@ export function Contact() {
                         variant="outline"
                         className="border-[#ff87ab]/30 text-zinc-200 hover:bg-[#ff87ab]/10 hover:text-white transition-all duration-300 w-full sm:w-auto"
                     >
-                        {/* Ensure your PDF is in the 'public' folder! */}
-                        <a href="/CV_Keisha_Paraiso.pdf" target="_blank" rel="noopener noreferrer" download>
+                        <a href="/Paraiso - CV.pdf" target="_blank" rel="noopener noreferrer" download>
                             <FileDown className="mr-2 h-4 w-4 text-[#ff87ab]" />
                             Download My CV
                         </a>
