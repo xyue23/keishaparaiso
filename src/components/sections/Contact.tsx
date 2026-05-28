@@ -6,6 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { cn } from "@/lib/utils"; // Double check that cn is utilized perfectly
 
 export function Contact() {
     const [isSubmitting, setIsSubmitting] = useState(false);
@@ -120,8 +121,10 @@ export function Contact() {
                         type="submit"
                         disabled={isSubmitting}
                         className={cn(
-                            "w-full sm:w-auto bg-pink-500 text-zinc-950 font-semibold hover:bg-pink-400 transition-all duration-300 shadow-md shadow-pink-500/10",
-                            isSuccess && "bg-emerald-500 hover:bg-emerald-500 text-zinc-950"
+                            "w-full sm:w-auto text-zinc-950 font-semibold transition-all duration-300 shadow-md",
+                            isSuccess 
+                              ? "bg-emerald-500 hover:bg-emerald-600 shadow-emerald-500/10" 
+                              : "bg-pink-500 hover:bg-pink-400 shadow-pink-500/10"
                         )}
                     >
                         {isSubmitting ? (
@@ -153,7 +156,7 @@ export function Contact() {
                         variant="outline"
                         className="border-pink-500/30 text-zinc-200 hover:bg-pink-500/10 hover:text-white transition-all duration-300 w-full sm:w-auto"
                     >
-                        <a href="/Paraiso - CV.pdf" target="_blank" download>
+                        <a href="/Paraiso - CV.pdf" target="_blank" download="Paraiso - CV.pdf">
                             <FileDown className="mr-2 h-4 w-4 text-pink-400" />
                             Download My CV
                         </a>
